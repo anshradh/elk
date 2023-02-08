@@ -9,9 +9,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from tqdm.auto import tqdm
 
-from .files import elk_cache_dir
-from .training.ccs import CCS
-from .training.preprocessing import load_hidden_states
+from ..files import elk_cache_dir
+from ..training.ccs import CCS
+from ..training.preprocessing import load_hidden_states
 
 
 @torch.autocast("cuda", enabled=torch.cuda.is_available())

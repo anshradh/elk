@@ -1,6 +1,6 @@
-from .files import elk_cache_dir
-from .training.ccs import CCS
-from .training.preprocessing import load_hidden_states
+from ..files import elk_cache_dir
+from ..training.ccs import CCS
+from ..training.preprocessing import load_hidden_states
 from argparse import ArgumentParser
 from sklearn.model_selection import train_test_split
 import pickle

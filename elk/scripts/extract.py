@@ -1,6 +1,6 @@
-from .extraction import extract_hiddens, PromptCollator
-from .extraction.parser import get_args
-from .files import elk_cache_dir, memorable_cache_dir
+from ..extraction import extract_hiddens, PromptCollator
+from ..extraction.parser import get_args
+from ..files import elk_cache_dir, memorable_cache_dir
 from transformers import AutoModel, AutoTokenizer
 import json
 import torch
